@@ -10,11 +10,11 @@
 
 -----
 
-- 3.将recovery.img或boot.img上传至一个可以提供直链下载的位置，这里我推荐直接将img文件上传至这个仓库，然后点进去点view raw，来获取直链
+- 3.将recovery.img或boot.img上传至一个可以提供直链下载的位置，这里我推荐直接将img文件上传至Release，编辑tag为images
 
 -----
 
-- 4.点击actions － make twrp device － run workflow，然后在那个链接框里面输入你刚刚获取的直链
+- 4.点击Actions － Make TWRP Device from Release － run workflow，然后在那个文本框里输入你上传img的名字
 
 -----
 
@@ -22,7 +22,7 @@
 
 -----
 ## 编译结果
-- 可以在 [Release](../../releases) 下载
+- 可以在 [Actions]artifacts 下载
 
 ## 看不懂想要图文教程?
 - 看看隔壁那个用github编译twrp教程，与这个大同小异端
